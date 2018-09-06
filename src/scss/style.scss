@@ -1,5 +1,23 @@
+main {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100vh;
+    max-height: 1100px;
+    line-height: initial;
+}
+
+main * {
+    line-height: initial;
+}
+
 body {
-    background: red !important;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100vh;
+    height: auto;
 }
 
 @font-face {
