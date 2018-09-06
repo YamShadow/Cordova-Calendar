@@ -8,7 +8,7 @@ export default class notificationService {
 
   get DataFromApi() {
     const req = new XMLHttpRequest();
-    req.open('GET', 'https://www.outofpluto.com/html/ecv/webdev2/repos.json', false);
+    req.open('GET', 'http://swiv.outofpluto.com:8082/api/lecture/notification/?format=json', false);
     req.send();
     return JSON.parse(req.response);
   }
