@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <Calendar/>
     <HelloWorld/>
   </div>
 </template>
@@ -8,6 +9,7 @@
 <script>
   import HelloWorld from './components/HelloWorld'
   import NotificationService from './js/services/notification.service'
+  import Calendar from './components/Calendar'
   // import * as script from './js/script.js';
 
   // script();
@@ -15,10 +17,10 @@
   export default {
     name: 'App',
     components: {
-      HelloWorld
+      HelloWorld,
+      Calendar
     }
   }
-
 </script>
 
 <style lang="scss">

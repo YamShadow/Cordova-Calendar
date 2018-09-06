@@ -1,3 +1,14 @@
 body {
     background: red !important;
 }
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("fonts/Metropolis-Light.otf");
+}
+
+ @font-face {
+    font-family: "Metropolis";
+    src: url("fonts/Metropolis-Bold.otf");
+    font-weight: bold;
+}
